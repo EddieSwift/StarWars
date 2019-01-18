@@ -1,0 +1,171 @@
+body{
+    font-family: 'Poller One', cursive;
+    background-image: url("../Images/sky.jpg");
+    background-attachment: fixed;
+    color: gold;
+}
+
+header{
+    background-color: rgba(60,69,67,0.6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 24px;
+    position: center;
+}
+
+.bottom-left{
+    border-bottom-left-radius: 15px;
+}
+
+.bottom-right{
+    border-bottom-right-radius: 15px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 25em;
+    left: 25%;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    position: center;
+}
+
+li {
+
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 0.6);
+    position: center;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding: 0.75em 0;
+    color: limegreen;
+    font-size: 2em;
+}
+
+#left img{
+    box-shadow: rgba(60,69,67,0.6) 10px 10px;
+}
+
+#left2 img{
+    box-shadow: rgba(60,69,67,0.6) 10px 10px;
+}
+
+#left{
+    float: left;
+    margin-right: 15px;
+}
+
+#left2{
+    float: left;
+    margin-right: 15px;
+}
+
+
+#left p{
+    text-align: center;
+}
+
+#left2 p{
+    text-align: center;
+}
+
+#right{
+    float: right;
+    border: 1px solid white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 492px;
+}
+
+#right2{
+    float: right;
+    border: 1px solid white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 492px;
+}
+
+#right > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right2 > div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#right img{
+    height: 120px;
+    width: 160px;
+    margin: 2px;
+}
+
+#right2 img{
+    height: 120px;
+    width: 160px;
+    margin: 2px;
+}
+
+#right h3{
+    text-align: center;
+}
+
+#right2 h3{
+    text-align: center;
+}
+
+#farGalaxy{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+#whiteGalaxy {
+
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+footer{
+    background-color: rgba(60,69,67,0.6);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    clear: both;
+    height: 4.5em;
+    position: relative;
+}
+
+#button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(204,3,35,0.6);
+    height: 2em;
+    width: 10em;
+    position: absolute;
+    left: 10%;
+    top: 27%;
+}
+
+#button p{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.bold{
+    font-size: 1.2em;
+    color: black;
+    font-variant: small-caps;
+}
